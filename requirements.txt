@@ -1,0 +1,11 @@
+python-dotenv
+unstructured
+langchain
+langchain-community
+langchain-groq
+onnxruntime # Mac Users: Use `conda install onnxruntime -c conda-forge`
+            # Windows Users: Install Microsoft Visual C++ Build Tools first
+chromadb
+streamlit
+
+# after installing all requirements, install markdown depenendies with: `pip install "unstructured[md]"`
