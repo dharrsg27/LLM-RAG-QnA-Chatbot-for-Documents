@@ -4,7 +4,7 @@
 1. LangChain: A powerful framework for working with Large Language Models (LLMs)
 2. Ollama: A tool that allows open-source LLMs to be run locally
 3. Groq Cloud: A service that allows running LLMs through their cloud platform
-4. ChromaDB: A vector database that allows storing and embedding retrievals
+4. ChromaDB: A vector database that allows storage and retrievals of vector embeddings
 5. Streamlit: A web framework for data scientists and AI/ML engineers to deliver interactive data apps
 ### Principles of RAG
 ## Setup
