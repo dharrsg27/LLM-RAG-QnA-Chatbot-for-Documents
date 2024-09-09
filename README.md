@@ -1,5 +1,12 @@
 # LLM-RAG-QnA-Chatbot-for-Documents
 ## Project Description
+### Tech Stack
+1. LangChain: A powerful framework for working with Large Language Models (LLMs)
+2. Ollama: A tool that allows open-source LLMs to be run locally
+3. Groq Cloud: A service that allows running LLMs through their cloud platform
+4. ChromaDB: A vector database that allows storing and embedding retrievals
+5. Streamlit: A web framework for data scientists and AI/ML engineers to deliver interactive data apps
+### Principles of RAG
 ## Setup
 1. Clone this repository
 2. Create a Python virtual environment
@@ -20,7 +27,7 @@
      ```
      conda install onnxruntime -c conda-forge
      ```
-   - For Window users:
+   - For Window users: Install the Microsoft C++ Build Tools and follow this guide
 5. Install dependenies in the `requirements.txt` file:
    ```
    pip install -r requirements.txt
