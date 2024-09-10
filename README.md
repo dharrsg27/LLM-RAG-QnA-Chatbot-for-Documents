@@ -29,12 +29,12 @@ A. Vector Database Creation
 3. Vector Embeddings of Chunks
 
    - After chunking, each chunk is converted into a vector embedding, which is a numerical representation of the text. These embeddings capture the meaning, context, and relationships between words within a chunk.
-   - By converting chunks into embeddings, similar chunks can be quickly found during queries using techniques like cosine similarity, which is significantly faster than performing direct text searches.
-   - In this project, Ollama's embedding model, 'nomic-embed-text', was used for vector embeddings.
+   - In this project, Ollama's embedding model, **'nomic-embed-text'**, was used for vector embeddings.
 
 4. Storing Embeddings in a Vector Database
 
-   - Vector databases like ChromaDB are optimized to store and retrieve high-dimensional vector embeddings. Once text chunks are converted into vector embeddings, these databases can efficiently perform similarity searches using metrics like cosine similarity. This is crucial for tasks like information retrieval, where we want to find chunks of text similar to a user's query.
+   - Vector databases like **ChromaDB** are optimized to store and retrieve high-dimensional vector embeddings.
+   - Once text chunks are converted into vector embeddings, these databases can efficiently perform similarity searches using metrics like cosine similarity.
    - Each chunk has a unique ID so it can be easily tracked and retrieved later, such as in this project, the IDs were formatted as "file_name:page:chunk_ids"
 
 B. Document Retrieval from Query and Answer Generation
@@ -53,7 +53,7 @@ B. Document Retrieval from Query and Answer Generation
 
 4. Answer Generation
 
-   - A prompt was previously defined and given the LLM on what to do when given the context and question
+   - A prompt was previously defined and given to the LLM, which was the **Llama 3.1 70b model**, on what to do when given the context and question
    - The system combines the retrieved document chunks as context and the user’s question to formulate a response based on the context provided.
 
 ## Setup
