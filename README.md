@@ -1,11 +1,11 @@
 # LLM-RAG-QnA-Chatbot-for-Documents
 ## Project Description
 ### Tech Stack
-1. LangChain: A powerful framework for working with Large Language Models (LLMs)
-2. Ollama: A tool that allows open-source LLMs to be run locally
-3. Groq Cloud: A service that allows running LLMs through their cloud platform
-4. ChromaDB: A vector database that allows storage and retrievals of vector embeddings
-5. Streamlit: A web framework for data scientists and AI/ML engineers to deliver interactive data apps
+![Static Badge](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=ffffff&link=https%3A%2F%2Fwww.langchain.com%2F)
+![Static Badge](https://img.shields.io/badge/Ollama-34363b?style=for-the-badge&logo=ollama&logoColor=ffffff&link=https%3A%2F%2Follama.com%2F)
+![Static Badge](https://img.shields.io/badge/GroqCloud-d17021?style=for-the-badge&link=https%3A%2F%2Fconsole.groq.com%2Flogin)
+![Static Badge](https://img.shields.io/badge/ChromaDB-0378a6?style=for-the-badge&link=https%3A%2F%2Fwww.trychroma.com%2F)
+![Static Badge](https://img.shields.io/badge/Streamlit-%23FF4B4B?style=for-the-badge&logo=streamlit&logoColor=ffffff&link=https%3A%2F%2Fstreamlit.io%2F)
 ### Principles of RAG
 ## Setup
 1. Clone this repository
